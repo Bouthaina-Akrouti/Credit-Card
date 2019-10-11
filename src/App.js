@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <header className="head"><h1>Credit Card</h1></header>
+        <img className="logo-puce" src="Images/card.png" />
+      </div>
+      <div>
+        <div>
+          <p className="num-card" ><strong>7253 3256 7895 1245</strong></p>
+          <div className="card">
+            <div className="code">
+              <p><strong>5422</strong></p>
+              <p><strong>CARDHOLDER</strong></p>
+            </div>
+            <div className="date">
+              <div>
+                <p><strong>VALID THRU</strong></p>
+              </div>
+              <div>
+                <p><strong>MONTH/YEAR</strong></p>
+                <p><strong>11/50</strong></p>
+              </div>
+            </div>
+            <div>
+              <img className="master" src="https://s.olj.me/storage/attachments/753/752372_60693905214_645561.jpg/r/800" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

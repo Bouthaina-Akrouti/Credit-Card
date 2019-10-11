@@ -1,22 +1,45 @@
-.App {
-  text-align: center;
+.App{
+  background-image: url(https://www.karlosperu.com/wp-content/uploads/2019/02/conectividad.png);
+  width: 38%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  color: rgb(255, 255, 255);
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  color: #0E307C;
+
+}
+.logo-puce{
+ width: 100px;
+ height: 90px;
+}
+.master{
+  width: 100px;
+}
+.num-card{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  width: 50%;
+  background: #35847A;
   color: white;
 }
+.code{
+  color: white;
+  width: 70%;
+}
+.date{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding: 40px;
 
-.App-link {
-  color: #09d3ac;
 }
